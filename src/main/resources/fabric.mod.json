@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "advancement_enchant_multiplier",
+  "version": "${version}",
+  "name": "Advancement Enchant Multiplier",
+  "description": "Crafted gear starts enchanted at 2^completed advancements; every new advancement doubles owned enchantments.",
+  "authors": [
+    "OpenAI"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "advancement_enchant_multiplier.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
